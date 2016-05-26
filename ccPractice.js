@@ -91,7 +91,7 @@ otherFunc(1) // 10
 // Create a function called countSet, no parameters needed, and set a new variable (call it countup) to equal 0. Have the function return an anonymous function that returns the countup variable after being incremented.
 
 function countSet(){
-  var countUp=0;
+  var countUp=0; // why does it not reset everytimt this runs?? 
   return function(){
     countUp++;
     return countUp;
